@@ -30,7 +30,7 @@ const getComponentName = name => {
 
 let promises = Object.keys(featherIcons).map(function(name) {
   const componentName = getComponentName(name);
-  indexContent += `export { default as ${componentName} } from './icons/${componentName}.svelte';\n`;
+  indexContent += `export { default as ${componentName}Icon } from './icons/${componentName}.svelte';\n`;
   const componentContent = `<svelte:options tag="${name}-icon"/>\n
 <script>
   export let color = 'currentColor';
