@@ -1,0 +1,22 @@
+{
+  "name": "svelte-feather",
+  "version": "1.0.0",
+  "description": "Svelte component for Feather icons",
+  "main": "src/index.js",
+  "repository": "https://github.com/langbamit/svelte-feather",
+  "author": "langbamit <langbamit@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./bin/build",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "feather-icons": "4.22.1"
+  },
+  "devDependencies": {
+    "pascalcase": "^0.1.1"
+  },
+  "peerDependencies": {
+    "svelte": "3.x"
+  }
+}
