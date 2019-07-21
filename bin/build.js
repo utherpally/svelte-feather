@@ -35,6 +35,8 @@ let promises = Object.keys(featherIcons).map(function(name) {
 <script>
   export let color = 'currentColor';
   export let size = 24;
+  let className = '';
+  export { className as class };
 </script>
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +44,7 @@ let promises = Object.keys(featherIcons).map(function(name) {
   height="{size}"
   viewBox="0 0 24 24"
   fill="none"
+  class={className}
   stroke={color}
   stroke-width="2"
   stroke-linecap="round"
