@@ -6,6 +6,7 @@
   "repository": "https://github.com/langbamit/svelte-feather",
   "author": "langbamit <langbamit@gmail.com>",
   "license": "MIT",
+  "keywords": ["svelte", "feather", "svg", "inline", "icons", "design"],
   "scripts": {
     "build": "node ./bin/build",
     "prepublishOnly": "npm run build"
